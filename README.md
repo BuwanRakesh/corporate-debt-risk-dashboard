@@ -19,29 +19,33 @@ An interactive, web-based financial analytics application designed to evaluate c
 * **Dark-Mode Financial UI:** Tailored for corporate presentation and executive review.
 
 ---
-
 ## 📐 Financial Methodology & Metrics
 
 The dashboard evaluates corporate solvency and credit risk across three primary analytical framework pillars:
 
 ### 1. Interest Coverage Ratio
 Evaluates a company's capacity to service its outstanding debt using operational earnings.
-$$\text{Interest Coverage Ratio} = \frac{\text{Operating Income (EBIT)}}{\text{Interest Expense}}$$
-* **MSFT Evaluation:** $\$155.2\text{B} / \$3.1\text{B} = \mathbf{50.1x}$
+
+**Formula:** `Operating Income (EBIT) / Interest Expense`
+
+* **MSFT Evaluation:** $155.2B / $3.1B = **50.1x**
 * **Benchmark:** Ratios above **3.0x** indicate strong debt service capability; ratios below **1.5x** signal distress risk.
 
 ### 2. Net Debt
 Measures total obligations after accounting for highly liquid cash reserves that could immediately extinguish debt.
-$$\text{Net Debt} = \text{Total Long-Term \& Short-Term Debt} - \text{Cash \& Cash Equivalents}$$
-* **MSFT Evaluation:** $\$10.0\text{B} - \$46.5\text{B} = \mathbf{-\$36.5B}$ *(Net Cash Position)*
+
+**Formula:** `Total Debt - Cash & Cash Equivalents`
+
+* **MSFT Evaluation:** $10.0B - $46.5B = **-$36.5B** *(Net Cash Position)*
 * **Benchmark:** Negative Net Debt indicates a net-cash fortress balance sheet.
 
 ### 3. Debt / EBIT (Leverage Multiple)
 Assesses the number of years of operating earnings required to pay off total outstanding principal debt.
-$$\text{Leverage Multiple} = \frac{\text{Total Debt}}{\text{EBIT}}$$
-* **MSFT Evaluation:** $\$10.0\text{B} / \$155.2\text{B} = \mathbf{0.3x}$
-* **Benchmark:** Multiples below **2.0x** signify conservative leverage; above **4.0x–5.0x** indicates high credit risk.
 
+**Formula:** `Total Debt / EBIT`
+
+* **MSFT Evaluation:** $10.0B / $155.2B = **0.3x**
+* **Benchmark:** Multiples below **2.0x** signify conservative leverage; above **4.0x–5.0x** indicates high credit risk.
 ---
 
 ## 🛠️ Technology Stack
